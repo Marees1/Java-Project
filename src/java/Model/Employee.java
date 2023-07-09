@@ -12,7 +12,7 @@ import java.io.*;
 
 public class Employee extends Connect {
 
-    /////Function for connect to the MySQL Server Database////////////
+    //connection to database
     public Employee() {
         Connect.connect_mysql();
     }
